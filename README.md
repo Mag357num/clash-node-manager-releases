@@ -6,11 +6,13 @@ Windows 上的 Clash/Mihomo 节点管理工具：节点质量评分、自动择�
 
 ## 安装与更新
 
-需要现有 357Toolkits / Codex harness、Python、Node.js 22.13+、PowerShell 5.1 或 7，以及 Clash/Mihomo。本包用于已经接入该环境的 Windows 用户，不包含完整 harness。
+需要现有 357Toolkits / Codex harness、Python、Node.js 22.13+、PowerShell 5.1 或 7、.NET Framework 4.8，以及 Clash/Mihomo。本包用于已经接入该环境的 Windows 用户，不包含完整 harness。
 
 下载正式 Release 中的 `ClashNodeManager-X.Y.Z-windows.zip`，解压，退出本软件的其他窗口和托盘，再运行 `Install.ps1`。程序位置为 `CODEX_HOME/tools/CodexRecovery/CodexRecovery.exe`。只复制 EXE 无法完成安装。
 
-安装后在主窗口点击 **检查更新 → 下载并安装**。无需 GitHub 账号；需要网络可以访问 GitHub。更新会校验 SHA256、备份并替换程序与配套脚本，再重新打开界面。私人设置、节点名单、历史、后台暂停原因和切换预算保持原样。本地修改的程序文件会受到覆盖保护。
+安装后使用 **帮助 → 检查软件更新… → 下载并安装**。无需 GitHub 账号；需要网络可以访问 GitHub。更新会校验 SHA256、备份并替换程序与配套脚本，再重新打开界面。私人设置、节点名单、历史、后台暂停原因和切换预算保持原样。本地修改的程序文件会受到覆盖保护。
+
+也可从 [357 Studio 网页下载](https://357-studio.pages.dev/codex-recovery/)。当前正式版为 1.0.11：关闭自动选点时可完整评估全部允许节点；双击切换网站节点；结果卡标明代理组；表格禁止手动拖拽行高列宽，并支持高 DPI 布局。自动选点开启后持续择优，默认不限制地区。
 
 质量评分只提供网络参考，不能保证账号安全或服务地区资格。开启自动择优前请确认使用范围和检测说明。
 
